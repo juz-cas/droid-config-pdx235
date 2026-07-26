@@ -1,19 +1,19 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-%package -n patterns-sailfish-device-adaptation-xqcc72
-Summary: Jolla HW Adaptation xqcc72
-Requires: droid-hal-pdx225
-Requires: droid-hal-pdx225-img-boot
-Requires: droid-hal-pdx225-kernel-dtbo
-Requires: droid-config-xqcc72-sailfish
-Requires: droid-config-xqcc72-pulseaudio-settings
-Requires: droid-config-xqcc72-policy-settings
-Requires: droid-config-xqcc72-preinit-plugin
-Requires: droid-config-xqcc72-flashing
-Requires: droid-config-xqcc72-bluez5
-Requires: droid-hal-version-xqcc72
-Requires: droid-hal-pdx225-detritus
+%package -n patterns-sailfish-device-adaptation-xqcd72
+Summary: Jolla HW Adaptation xqcd72
+Requires: droid-hal-pdx235
+Requires: droid-hal-pdx235-img-boot
+Requires: droid-hal-pdx235-kernel-dtbo
+Requires: droid-config-xqcd72-sailfish
+Requires: droid-config-xqcd72-pulseaudio-settings
+Requires: droid-config-xqcd72-policy-settings
+Requires: droid-config-xqcd72-preinit-plugin
+Requires: droid-config-xqcd72-flashing
+Requires: droid-config-xqcd72-bluez5
+Requires: droid-hal-version-xqcd72
+Requires: droid-hal-pdx235-detritus
 
 # For mount partitions
 Requires: parse-android-dynparts
@@ -107,7 +107,7 @@ Requires: nfcd-binder-plugin
 # Splash screen
 #Requires: yamuisplash
 
-%description -n patterns-sailfish-device-adaptation-xqcc72
-Pattern with packages for xqcc72 HW Adaptation
+%description -n patterns-sailfish-device-adaptation-xqcd72
+Pattern with packages for xqcd72 HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-xqcc72
+%files -n patterns-sailfish-device-adaptation-xqcd72
