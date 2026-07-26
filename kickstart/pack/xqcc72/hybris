@@ -109,9 +109,9 @@ rm sailfish.img
 FILES="*.img* *.exe *.dll *-release"
 
 # Set supported devices in flash scripts
-#if [ "@DEVICEMODEL@" = "xqcc72" ]; then
-#  sed -e "s/\@VALID_PRODUCTS\@/\"XQ-CC72\"/g" -i flash-config.sh
-#  sed -e "s/\@DEVICES\@/:: XQ-CC72/g" -i flash-on-windows.bat
+#if [ "@DEVICEMODEL@" = "xqdc72" ]; then
+#  sed -e "s/\@VALID_PRODUCTS\@/\"XQ-DC72\"/g" -i flash-config.sh
+#  sed -e "s/\@DEVICES\@/:: XQ-DC72/g" -i flash-on-windows.bat
 #fi
 
 mkdir -p ${RELEASENAME}
