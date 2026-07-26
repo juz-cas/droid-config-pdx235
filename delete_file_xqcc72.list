@@ -1,2 +1,0 @@
-/etc/sysconfig/dummy_netd
-/usr/lib/systemd/system/wait_for_keymint.service
